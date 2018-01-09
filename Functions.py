@@ -3,11 +3,11 @@ import Configuration as conf
 import util
 
 
-def forAllInputFiles():
+def forAllInputFiles(doworkwithfile):
 	inputfiles=os.listdir(conf.inputFolder)
 
 	for i, inputfile in enumerate(inputfiles):
-		pass
+		doworkwithfile(i,inputfile)
 
 def main():
 	pass
