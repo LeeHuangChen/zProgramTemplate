@@ -1,3 +1,3 @@
-inputFolder="InputFiles"
-generateFolder="Generated"
-resultFolder="Results"
+inputFolder = "InputFiles"
+generateFolder = "Generated"
+resultFolder = "Results"
